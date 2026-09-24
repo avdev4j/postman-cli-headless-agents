@@ -4,7 +4,7 @@ request:
   method: GET
   pathVariables:
     - key: id
-      value: <integer>
+      value: "9999"
       disabled: false
       description: "(Required) "
   body:

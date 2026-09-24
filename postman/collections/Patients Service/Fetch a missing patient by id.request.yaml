@@ -1,0 +1,11 @@
+$kind: http-request
+id: 6a12b886c650732f505b7c4b
+name: Fetch a missing patient by id
+method: GET
+url: '{{baseUrl}}/api/patients/9999'
+description: 'Documented 404 case: no such patient'
+headers:
+  - key: Accept
+    value: application/json
+  - key: x-mock-response-code
+    value: '404'

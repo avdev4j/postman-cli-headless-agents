@@ -6,7 +6,7 @@ headers:
   Accept: application/json
 pathVariables:
   - key: id
-    value: <integer>
+    value: '1001'
     disabled: false
     description: '(Required) '
 settings: {}
